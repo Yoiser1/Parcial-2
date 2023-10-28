@@ -1,0 +1,274 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo img {
+    width: 8%; 
+    height: 8%; 
+    margin-right: 10px;
+  }
+  
+  #logo h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    margin: 0 15px;
+    color: #f5f5f5;
+  }
+  
+  /* Estilo para el contenido principal */
+  main {
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Contenedor para el texto y la imagen */
+  .content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  /* Estilo para el texto */
+  .text {
+    flex-grow: 1; 
+  }
+  
+  .name {
+    font-size: 24px;
+    margin-top: 20%;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+  }
+  
+  /* Estilo para la imagen */
+  .image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 20px; 
+  }
+  
+  .whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: #fff;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  
+  .scroll-down-arrow {
+    background: url("5083079.png") no-repeat center center; 
+    background-size: 30px; 
+    width: 30px; 
+    height: 30px; 
+    display: block;
+    text-indent: -9999px; 
+  }
+  
+  /* Estilo para la sección de servicios */
+  #servicios {
+    background-color: #f5f5f5; 
+    padding: 20px;
+
+    
+  }
+  /* Estilos de las tarjetas */
+  .card {
+   /* background-image: url(madrid.png);*/
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo para el título de la tarjeta */
+  .card h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  /* Estilo para la descripción de la tarjeta */
+  .card p {
+    font-size: 16px;
+  }
+  
+  /* Contenedor para las tarjetas superiores */
+  .top-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; /* Espaciado entre las tarjetas arriba */
+  }
+  
+  /* Contenedor para las tarjetas inferiores */
+  .bottom-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px; /* Espaciado entre las tarjetas abajo */
+  }
+  /* Estilo para las tarjetas */
+  .card {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilo para los títulos de las tarjetas */
+  .card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  h2{
+      text-align: center;
+  }
+  /* Estilo para el texto de las tarjetas */
+  .card {
+      font-size: 14px;
+      color: #777;
+      border: 2px solid black; 
+      border-radius: 10px; 
+      padding: 10px; 
+      box-shadow: 0px 0px 10px black; 
+    }
+    .whatsapp-logo {
+      display: inline-block;
+      width: 30px; 
+      height: 30px; 
+      background: url(whatsapp.png) no-repeat center center;
+      background-size: contain; 
+    }
+  /* Estilo para el contenedor de las tarjetas */
+  .card-deck {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    
+    /* Estilo para las tarjetas individuales */
+    .card {
+      width: calc(25% - 10px);
+      margin: 5px;
+      background-color: transparent;
+    }
+    
+    /* Estilo para las imágenes dentro de las tarjetas */
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+    
+    /* Estilo para el texto dentro de las tarjetas */
+    .card-text {
+      margin-top: 0%;
+      color: rgb(0, 0, 0);
+    }
+    
+    /* Estilo para el texto centrado dentro de las tarjetas */
+    .card-body.text-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 55%;
+    }
+    
+    
+    .card.bg-dark {
+      margin: 0;
+    }
+    
+    /* Estilo para el contenedor de colaboradores */
+    #colaboradores {
+      background-color: #f5f5f5;
+      padding: 20px;
+      
+    }
+    /* Estilo para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para el texto de copyright */
+.copyright {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#scroll-to-top-button img {
+  position: fixed;
+  bottom: 40px;
+  right: 75px;
+  width: 40px; 
+  height: 25px;
+  border-radius: 50%; 
+}
+#verMasButton {
+  background-color: #333;
+  color: white;
+}
+
+
+
+
+  
